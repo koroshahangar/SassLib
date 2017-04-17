@@ -1,0 +1,58 @@
+// Different types of flex boxes
+=flex_row_center
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+=flex_row_around
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  align-items: center
+=flex_row_between
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+=flex_row_between_stretch
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: stretch
+=flex_col_center
+  display: flex
+  flex-direction: column
+  align-items: center
+=flex_col_baseline
+  display: flex
+  flex-direction: column
+  align-items: baseline
+=flex_col_stretch
+  display: flex
+  flex-direction: column
+  align-items: stretch
+
+// Vertical padding
+=pad_ver($val)
+  padding-top: $val
+  padding-bottom: $val
+// Horizontal padding
+=pad_hor($val)
+  padding-right: $val
+  padding-left: $val
+
+// Vertical margin
+=marg_ver($val)
+  margin-top: $val
+  margin-bottom: $val
+// Horizantal margin
+=marg_hor($val)
+  margin-right: $val
+  margin-left: $val
+
+// Background picture
+=bgpic($url)
+  background-image: url($url)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
